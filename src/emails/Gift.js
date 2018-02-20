@@ -37,7 +37,7 @@ export default ({ data }) => (
 						<p style={style.text}>{data.GiftCard.From} has sent you a ${parseFloat(data.GiftCard.Amount).toFixed(2)} gift card.</p>
 						<p style={style.text}>Enjoy!</p>
 					</Grid>
-					<GiftCard {...data.GiftCard} location={data.Location} />
+					<GiftCard giftCard={data.GiftCard} location={data.Location} />
 				</Grid>
 			</Body>
 			<Footer />

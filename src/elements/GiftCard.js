@@ -71,28 +71,28 @@ const styles = {
 	}
 };
 
-export default ({ Account, Amount, CVV, location }) => {
+export default ({ giftCard, location }) => {
 	return (
 		<div style={styles.card}>
 			<div style={styles.top}>
 				<div style={styles.topLeft}>
-					<Img style={styles.img} src={'https://s3.amazonaws.com/setup-mobilebytes.com/1300972036/logos/Color_Logo_1469490469.png'} alt="logo" />
+					<Img style={styles.img} src={location.ImageUrl} alt="logo" />
 				</div>
 				<div style={styles.topRight}>
 					<div style={{}}>
 						<div style={{}}>
-							<p style={{...styles.text, ...styles.amount}}>${parseFloat(Amount).toFixed(2)} Gift Card</p>
+							<p style={{...styles.text, ...styles.amount}}>${parseFloat(giftCard.Amount).toFixed(2)} Gift Card</p>
 							<p style={{...styles.text, ...styles.merchant}}>{location.Name}</p>
 						</div>
 						<div style={{paddingTop: '20px'}}>
 							<p style={{...styles.text, ...styles.header}}>Gift Card Number</p>
-							<p style={{...styles.text, ...styles.number}}>{Account}</p>
+							<p style={{...styles.text, ...styles.number}}>{giftCard.Account}</p>
 						</div>
 					</div>
 					<div style={styles.info}>
 						<div>
 							<p style={{...styles.text, ...styles.header}}>CVV</p>
-							<p style={{...styles.text, ...styles.number}}>{CVV}</p>
+							<p style={{...styles.text, ...styles.number}}>{giftCard.CVV}</p>
 						</div>
 					</div>
 				</div>

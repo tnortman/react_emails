@@ -24,8 +24,8 @@ function saveEmail(email) {
 
 createEmail('Gift', {
 	Location:{
-		ImageUrl: 'https://s3.amazonaws.com/setup-mobilebytes.com/1300972036/logos/Color_Logo_1469490469.png',
-		Name: `BurgerBytes Central`,
+		ImageUrl: 'https://s3.amazonaws.com/setup-mobilebytes.com/2301533693/logos/Logo_1501694663.png',
+		Name: `Cafe MB`,
 	},
 	User: {
 		Name: 'Tim Nortman'
@@ -33,7 +33,7 @@ createEmail('Gift', {
 	GiftCard: {
 		Account: 8282820000002678,
 		CVV: 784,
-		Amount: 25,
+		Amount: 50,
 	}
 }).then(email => {
 	saveEmail(email);

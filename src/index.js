@@ -12,8 +12,8 @@ import './inlined.css';
 
 const mockData = {
   Location:{
-    ImageUrl: 'https://s3.amazonaws.com/setup-mobilebytes.com/1300972036/logos/Color_Logo_1469490469.png',
-    Name: `BurgerBytes Central`,
+    ImageUrl: 'https://s3.amazonaws.com/setup-mobilebytes.com/2301533693/logos/Logo_1501694663.png',
+    Name: `Cafe MB`,
   },
   GiftCard: {
   	Account: 8282820000002678,

@@ -34,7 +34,7 @@ export default ({ data }) => (
 				<Grid style={{}}>
 					<Grid>
 						<p style={style.text}>Hello,</p>
-						<p style={style.text}>{data.User.Name} has sent you a ${parseFloat(data.GiftCard.Amount).toFixed(2)} gift card.</p>
+						<p style={style.text}>{data.GiftCard.From} has sent you a ${parseFloat(data.GiftCard.Amount).toFixed(2)} gift card.</p>
 						<p style={style.text}>Enjoy!</p>
 					</Grid>
 					<GiftCard {...data.GiftCard} location={data.Location} />

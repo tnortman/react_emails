@@ -98,7 +98,7 @@ export default ({ giftCard, location }) => {
 				</div>
 			</div>
 			{/*<div style={styles.bottom}>
-				<Barcode value={Account.toString()} width={3} />
+				<Barcode value={giftCard.Account.toString()} width={3} />
 			</div>*/}
 		</div>
 	);

@@ -11,7 +11,7 @@
     "eslint-plugin-import": "2.0.1",
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "6.4.1",
-    "node-fetch": "1.6.3",
+    "node-fetch": "2.6.1",
     "react-scripts": "0.9.5"
   },
   "dependencies": {
